@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HalamaKedua"/>
+        <activity android:name=".HalamaKedua" />
+        <activity android:name=".CekNull"></activity>
     </application>
 
 </manifest>
