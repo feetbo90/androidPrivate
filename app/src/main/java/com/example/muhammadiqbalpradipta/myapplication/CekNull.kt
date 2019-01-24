@@ -17,6 +17,7 @@ class CekNull : AppCompatActivity() {
             var bil: Int? = 0
             var bil2:Int? = 0
 
+            // toIntOrNull untuk mengecek apakah bilangan bernilai null atau tidak
             if (bilangan.text.toString().toIntOrNull() != null && bilangan2.text.toString().toIntOrNull() != null)
             {
                 bil = bilangan.text.toString().toInt()
@@ -28,6 +29,8 @@ class CekNull : AppCompatActivity() {
 
 
         })
+
+
 
 
     }
