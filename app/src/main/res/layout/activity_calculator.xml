@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <EditText
+        android:id="@+id/bilangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/bilangan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah" />
+
+    <Button
+        android:id="@+id/kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurang" />
+
+    <Button
+        android:id="@+id/bagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bagi" />
+
+    <Button
+        android:id="@+id/kali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kali" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hasil" />
+
+
+</LinearLayout>

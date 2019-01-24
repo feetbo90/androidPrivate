@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hallo">Hallo</string>
+    <string name="textDua">TextView Dua</string>
+    <string name="sizeText">30dp</string>
+    <string name="textTiga">Text Tiga</string>
+</resources>
